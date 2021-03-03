@@ -1,10 +1,10 @@
 function Navbar({ onHamClick }) {
   return (
-    <header class="flex justify-between items-center bg-gray-800 text-gray-300 p-3">
+    <header class="fixed w-full flex justify-between items-center bg-gray-800 text-gray-300 p-3 shadow-lg">
       <div class="left">
         <h1 class="text-2xl">DenisWritesCode</h1>
       </div>
-      <div class="menu sm:hidden" onClick= {onHamClick}>
+      <div class="menu sm:hidden" onClick={onHamClick}>
         <svg
           class="w-6 h-6"
           fill="none"
