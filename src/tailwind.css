@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .skill {
-  @apply shadow-xl md:-mx-2 md:mt-2 p-3 bg-gray-50 rounded-sm;
+  @apply shadow-xl md:mx-3 md:mt-2 p-3 bg-gray-50 rounded-sm;
 }

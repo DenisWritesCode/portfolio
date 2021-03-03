@@ -15,7 +15,7 @@ function Resume() {
             maxime officiis natus delectus.
           </p>
         </div>
-        <div class="cards text-gray-800 md:flex md:-mt-40 w-4/5 mx-auto">
+        <div class="cards text-gray-800 md:flex md:-mt-40 w-11/12 mx-auto">
           <div className="skill-container p-4 mb-20 pt-20 -mt-16">
             <div class="skill">
               <div className="skill-content relative flex-col lg:items-center mb-2">

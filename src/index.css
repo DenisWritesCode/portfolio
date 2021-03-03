@@ -31129,8 +31129,8 @@ video {
 
 @media (min-width: 768px) {
   .skill {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
     margin-top: 0.5rem;
   }
 }
