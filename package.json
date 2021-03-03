@@ -7,16 +7,15 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "postcss-cli": "^8.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "watch:css": "tailwindcss build src/tailwind.css -o src/index.css -w",
+    "watch:css": "tailwindcss src/tailwind.css -o src/index.css -w",
     "build:css": "tailwindcss build src/tailwind.css -o src/index.css",
-    "start": "craco  start && yarn watch:css",
+    "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
@@ -42,7 +41,7 @@
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9",
-    "postcss": "^8.2.6",
-    "tailwindcss": "^2.0.3"
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
