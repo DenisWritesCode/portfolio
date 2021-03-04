@@ -1,6 +1,6 @@
 function Navbar({ onHamClick }) {
   return (
-    <header class="fixed w-full flex justify-between items-center bg-gray-800 text-gray-300 p-3 shadow-lg">
+    <header class="fixed w-full flex justify-between items-center bg-gray-800 text-gray-300 p-3">
       <div class="left">
         <h1 class="text-2xl">DenisWritesCode</h1>
       </div>

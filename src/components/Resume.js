@@ -4,16 +4,18 @@ function Resume() {
   return (
     <section class="resume pt-14">
       <div className="content-container text-gray-200">
-        <div className="about bg-gray-800 pb-24 md:pb-60 p-5">
-          <h1 className="text-center text-3xl text-gray-100 font-bold p-2">
-            Tech Stack
-          </h1>
-          <p className="text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non error,
-            fugiat veritatis ducimus a, quae veniam autem mollitia perspiciatis,
-            praesentium reiciendis totam esse consectetur? Minus aspernatur
-            maxime officiis natus delectus.
-          </p>
+        <div className="text-content bg-gray-800">
+          <div className="about bg-gray-800 pb-24 md:pb-60 p-5 md:w-11/12 mx-auto">
+            <h1 className="text-center text-3xl text-gray-100 font-bold p-2">
+              Tech Stack
+            </h1>
+            <p className="text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              error, fugiat veritatis ducimus a, quae veniam autem mollitia
+              perspiciatis, praesentium reiciendis totam esse consectetur? Minus
+              aspernatur maxime officiis natus delectus.
+            </p>
+          </div>
         </div>
         <div class="cards text-gray-800 md:flex md:-mt-40 w-11/12 mx-auto">
           <div className="skill-container p-4 mb-20 pt-20 -mt-16">
