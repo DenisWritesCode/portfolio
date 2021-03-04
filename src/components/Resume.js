@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <section class="resume pt-14">
+    <section class="resume">
       <div className="content-container text-gray-200">
         <div className="text-content bg-gray-800">
           <div className="about bg-gray-800 pb-24 md:pb-60 p-5 md:w-11/12 mx-auto">
