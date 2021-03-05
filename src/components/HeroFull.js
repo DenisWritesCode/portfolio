@@ -1,11 +1,11 @@
 import React from "react";
 import profile from "../images/Suit.png";
 
-function Hero() {
+function HeroFull() {
   return (
     <header className="bg-gray-800 text-gray-100 pt-16">
-      <div className="top-content bg-gray-800 flex flex-col-reverse md:flex-row md:-mb-28">
-        <div className="left flex flex-col justify-center items-center md:w-1/2 md:relative md:top-1 md:pl-5 px-3">
+      <div className="top-content bg-gray-800 flex flex-col-reverse md:flex-row">
+        <div className="left flex flex-col justify-center items-center md:w-1/2 md:relative md:top-16 md:pl-7 px-3">
           <h1 className="text-4xl font-semibold">
             Turning Your Ideas into Reality
           </h1>
@@ -18,10 +18,10 @@ function Hero() {
             <span className="text-2xl font-semibold"> Denis Mutinda</span>. A
             junior Full-Stack Web developer.
           </p>
-          <p className="text-xl mb-5 ">
+          <p className="text-xl mb-5">
             I give wings to your ideas and you decide where to fly!🚀
           </p>
-          <div className="btn md:relative md:top-10 md:right-28">
+          <div className="btn">
             <button className="flex align-center justify-center text-xl text-gray-800 bg-gray-100 font-semibold rounded-2xl animate-bounce p-3">
               <span className="mr-2">Let's Start </span>
               <svg
@@ -44,7 +44,7 @@ function Hero() {
         <div className="right flex justify-center p-2 md:w-1/2">
           <img
             alt="Denis Profile"
-            className="cursor-pointer hover:shadow-outline rounded-full object-cover object-center h-96 w-96 md:relative md:top-10"
+            className="cursor-pointer hover:shadow-outline rounded-full object-cover object-center h-96 w-96 md:relative md:top-20"
             src={profile}
           />
         </div>
@@ -63,4 +63,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HeroFull;

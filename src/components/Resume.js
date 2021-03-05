@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <section class="resume">
-      <div className="content-container text-gray-200">
+      <div className="content-container mt-40 text-gray-200 border-2 border-red-500">
         <div className="text-content bg-gray-800">
           <div className="about bg-gray-800 pb-24 md:pb-60 p-5 md:w-11/12 mx-auto">
             <h1 className="text-center text-3xl text-gray-100 font-bold p-2">
@@ -17,7 +17,7 @@ function Resume() {
             </p>
           </div>
         </div>
-        <div class="cards text-gray-800 md:flex md:-mt-40 w-11/12 mx-auto">
+        <div class="cards text-gray-800 md:flex md:-mt-40 w-11/12 mx-auto border-2 border-green-500">
           <div className="skill-container p-4 mb-20 pt-20 -mt-16">
             <div class="skill">
               <div className="skill-content relative flex-col lg:items-center mb-2">
