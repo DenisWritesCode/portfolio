@@ -3,26 +3,27 @@ import profile from "../images/Profile.jpg";
 
 function Hero() {
   return (
-    <header className="bg-gray-800 text-gray-100 max-h-screen relative">
+    <header className="text-gray-100 h-screen">
       <div className="header-content">
-        <div className="flex items-center content-center justify-around pt-20 z-50">
-          <div className="left w-1/2 text-center">
-            <h1 className="text-4xl font-semibold m-3">
+        <div className="flex flex-col-reverse md:flex-row items-center content-center justify-around md:mt-16 z-50 bg-gray-800">
+          <div className="left md:w-1/2 p-2 text-center">
+            <h1 className="text-4xl font-semibold sm:m-3">
               Turning your ideas into reality
             </h1>
             <h2 className="text-3xl m-2">
               Using <span>&lt;Code/&gt;</span> to make a difference
             </h2>
             <p className="text-xl">
-              Hey there 👋🏾, I am <span className="text-2xl font-semibold"> Denis Mutinda</span>. A
+              Hey there 👋🏾, I am{" "}
+              <span className="text-2xl font-semibold"> Denis Mutinda</span>. A
               junior Full-Stack Web developer.
             </p>
             <p className="text-xl">
-              I give wings to your ideas and you decide where to fly!
+              I give wings to your ideas and you decide where to fly!🚀
             </p>
 
-            <button class="inline-flex items-center h-10 px-5 text-gray-800 bg-gray-100 text-xl font-semibold rounded-2xl relative top-10 -left-20 animate-bounce">
-              <span className="mr-2">Let's Start</span>
+            <button class="inline-flex items-center h-10 px-5 text-gray-800 bg-gray-100 text-xl font-semibold rounded-2xl relative top-5 md:top-10 md:-left-20 animate-bounce mb-5">
+              <span className="mr-2">Let's Start </span>
               <svg
                 class="w-6 h-6"
                 fill="none"
@@ -39,25 +40,20 @@ function Hero() {
               </svg>
             </button>
           </div>
-          <div className="right w-1/3">
+          <div className="right flex justify-center md:w-1/3 pt-6 md:pt-2">
             <img
               alt="Denis Profile"
-              class="cursor-pointer hover:shadow-outline w-96 h-96 rounded-full object-cover object-center"
+              class="cursor-pointer hover:shadow-outline w-full h-full rounded-full object-cover object-center"
               src={profile}
             />
           </div>
         </div>
-
-        <div className="relative z-0 -mt-28">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-            className="wave block"
-          >
+        <div className="-mt-10">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
-              fill="#ffffff"
+              fill="#1f2937"
               fill-opacity="1"
-              d="M0,128L60,154.7C120,181,240,235,360,224C480,213,600,139,720,128C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+              d="M0,256L34.3,266.7C68.6,277,137,299,206,282.7C274.3,267,343,213,411,186.7C480,160,549,160,617,176C685.7,192,754,224,823,213.3C891.4,203,960,149,1029,154.7C1097.1,160,1166,224,1234,229.3C1302.9,235,1371,181,1406,154.7L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
             ></path>
           </svg>
         </div>
