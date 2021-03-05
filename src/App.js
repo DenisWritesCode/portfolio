@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Navbar from "./components/Navbar";
 import MobileNav from './components/MobileNav';
 import Resume from './components/Resume';
+import Hero from './components/Hero';
 
 function App() {
   const [mobileShow, setmobileShow] = useState(false);
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar onHamClick={onHamClick} />
       {mobileShow && <MobileNav />}
+      <Hero />
       <Resume />
     </div>
   );
