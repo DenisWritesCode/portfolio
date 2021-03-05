@@ -6,22 +6,22 @@ function Navbar({ onHamClick }) {
       </div>
       <div className="middle hidden sm:block">
         <li className="flex">
-          <ul className="py-1 px-3 text-gray-200 bg-gray-900 rounded-lg">Home</ul>
-          <ul className="py-1 px-3">Blog</ul>
-          <ul className="py-1 px-3">Resume</ul>
-          <ul className="py-1 px-3">Contact</ul>
+          <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg">Home</ul>
+          <ul className="cursor-pointer py-1 px-3">Blog</ul>
+          <ul className="cursor-pointer py-1 px-3">Resume</ul>
+          <ul className="cursor-pointer py-1 px-3">Contact</ul>
         </li>
       </div>
       <div className="right">
-        <li className="flex">
+        <li className="flex cursor-pointer">
           <ul className="py-1 px-3">
-            <i className="fab fa-twitter fa-lg"></i>
+            <i className="cursor-pointer fab fa-twitter fa-lg"></i>
           </ul>
           <ul className="py-1 px-3">
-            <i className="fab fa-linkedin fa-lg"></i>
+            <i className="cursor-pointer fab fa-linkedin fa-lg"></i>
           </ul>
           <ul className="py-1 px-3">
-            <i className="fas fa-envelope-open-text fa-lg"></i>
+            <i className="cursor-pointer fas fa-envelope-open-text fa-lg"></i>
           </ul>
         </li>
       </div>

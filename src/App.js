@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar onHamClick={onHamClick} />
       {mobileShow && <MobileNav />}
-      <HeroFull />
+      <Hero />
       {/*
       
       <Hero />
