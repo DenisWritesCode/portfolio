@@ -9,13 +9,15 @@ function Navbar({ onHamClick }) {
       <div className="middle hidden sm:block">
         <li className="flex">
           <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg">
-            <a href="#hero">Home</a>
+            <a href="#hero" className="anchor">Home</a>
           </ul>
           <ul className="cursor-pointer py-1 px-3">
-            <a href="#skillset">SkillSet</a>
+            <a href="#skillset">
+              SkillSet
+            </a>
           </ul>
           <ul className="cursor-pointer py-1 px-3">
-            <a href="#projects">Experience</a>
+            <a href="#projects" class="anchor">Experience</a>
           </ul>
         </li>
       </div>
@@ -33,20 +35,22 @@ function Navbar({ onHamClick }) {
         </li>
       </div>
       <div className="menu sm:hidden" onClick={onHamClick}>
-        <svg
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          ></path>
-        </svg>
+        <a href="#home">
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </a>
       </div>
     </nav>
   );

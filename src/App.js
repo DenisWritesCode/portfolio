@@ -10,12 +10,18 @@ function App() {
   const [mobileShow, setmobileShow] = useState(false);
 
   const onHamClick = () => {
-    setmobileShow(!mobileShow);   
+    if (!mobileShow) {
+      window.scrollTo({
+        top: 0,
+        behaviour: 'smooth'
+      });
+    }
+    setmobileShow(!mobileShow);
   };
   return (
     <div className="App">
       <Navbar onHamClick={onHamClick} />
-      {mobileShow && <MobileNav />}
+      {mobileShow && <MobileNav onHamClick={onHamClick} />}
       <Hero />
       <SkillSet />
       <Testimonials />
