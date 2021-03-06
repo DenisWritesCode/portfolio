@@ -2,15 +2,21 @@ function Navbar({ onHamClick }) {
   return (
     <nav className="fixed top-0 h-16 z-10 w-full flex justify-between items-center bg-gray-800 text-gray-300 p-3">
       <div className="left">
-        <h1 className="text-2xl">DenisWritesCode</h1>
+        <h1 className="text-2xl">
+          <a href="#hero">DenisWritesCode</a>
+        </h1>
       </div>
       <div className="middle hidden sm:block">
         <li className="flex">
-          <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg"><a href="#hero">Home</a></ul>
-          <ul className="cursor-pointer py-1 px-3"><a href="#skillset">SkillSet</a></ul>
-          <ul className="cursor-pointer py-1 px-3">Blog</ul>
-          <ul className="cursor-pointer py-1 px-3">Resume</ul>
-          <ul className="cursor-pointer py-1 px-3">Contact</ul>
+          <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg">
+            <a href="#hero">Home</a>
+          </ul>
+          <ul className="cursor-pointer py-1 px-3">
+            <a href="#skillset">SkillSet</a>
+          </ul>
+          <ul className="cursor-pointer py-1 px-3">
+            <a href="#projects">Experience</a>
+          </ul>
         </li>
       </div>
       <div className="right">

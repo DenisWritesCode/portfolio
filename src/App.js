@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import MobileNav from './components/MobileNav';
 import SkillSet from './components/SkillSet';
 import Hero from './components/Hero';
-import HeroFull from './components/HeroFull';
+import Testimonials from './components/Testimonials';
 
 function App() {
   const [mobileShow, setmobileShow] = useState(false);
@@ -18,7 +18,7 @@ function App() {
       {mobileShow && <MobileNav />}
       <Hero />
       <SkillSet />
-      <HeroFull />
+      <Testimonials />
     </div>
   );
 }
