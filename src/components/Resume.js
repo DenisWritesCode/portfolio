@@ -135,7 +135,7 @@ function HeroFull() {
         </div>
       </div>
       <div className="divider md:-mt-28">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
           <path
             fill="#1f2739"
             fill-opacity="1"
