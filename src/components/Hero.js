@@ -3,7 +3,7 @@ import profile from "../images/Suit.png";
 
 function Hero() {
   return (
-    <header className="bg-gray-800 text-gray-100 pt-16">
+    <header id="hero" className="bg-gray-800 text-gray-100 pt-16">
       <div className="top-content bg-gray-800 flex flex-col-reverse md:flex-row md:-mb-28">
         <div className="left flex flex-col justify-center text-left md:w-1/2 md:relative md:top-1 md:pl-5 px-3">
           <h1 className="text-4xl font-semibold">
@@ -21,7 +21,7 @@ function Hero() {
           <p className="text-xl mb-5 ">
             I give wings to your ideas and you decide where to fly!🚀
           </p>
-          <div className="btn md:relative md:top-10 md:left-28">
+          <div className="btn relative top-10 md:left-28">
             <button className="flex align-center justify-center text-xl text-gray-800 bg-gray-100 font-semibold rounded-2xl animate-bounce p-3">
               <span className="mr-2">Let's Start </span>
               <svg

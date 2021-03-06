@@ -6,7 +6,8 @@ function Navbar({ onHamClick }) {
       </div>
       <div className="middle hidden sm:block">
         <li className="flex">
-          <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg">Home</ul>
+          <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg"><a href="#hero">Home</a></ul>
+          <ul className="cursor-pointer py-1 px-3"><a href="#skillset">SkillSet</a></ul>
           <ul className="cursor-pointer py-1 px-3">Blog</ul>
           <ul className="cursor-pointer py-1 px-3">Resume</ul>
           <ul className="cursor-pointer py-1 px-3">Contact</ul>
