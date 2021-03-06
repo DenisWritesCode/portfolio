@@ -1,22 +1,32 @@
+import webdev from './../images/Web-Development.png';
+import robotics from './../images/Robotics.png';
+import mobile from './../images/CryptoMobile.png';
+
 function HeroFull() {
   return (
     <section className="resume bg-gray-200">
       <div className="about bg-gray-800 text-gray-100 p-5 pb-32 md:relative">
         <h1 className="text-3xl font-semibold text-center tracking-wider">
-          Current Skillset
+          Skillset
         </h1>
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          recusandae laudantium voluptas, quis voluptatibus nemo nihil et ipsa
-          delectus minus, optio quo esse necessitatibus asperiores voluptates
-          totam eveniet voluptatum quisquam?
+        <p className="text-xl w-2/3 text-center mx-auto">
+          Working with perfection in my mind, I know I have attain it, not when
+          I have nothing to add, rather when there is nothing to remove. I
+          iterate over your project for Perfection.
         </p>
-        <div className="btn relative top-5 flex align-center justify-center md:absolute md:mt-32 md:inset-x-1/3">
+        <p className="text-xl w-2/3 text-center mx-auto">
+          By adhering strictly to the principle of{" "}
+          <span className="italic underline">Iterative Development</span> you
+          are assured that not only will I delvier in time but I will also
+          deliver the best possible solution.
+        </p>
+        <div className="btn relative top-1/3 flex align-center justify-center md:absolute md:mt-24 md:inset-x-1/3">
           <button className="flex align-center justify-center text-xl text-gray-800 bg-gray-100 font-semibold rounded-2xl p-3">
             <span className="mr-2">Github </span>
             <svg
               className="w-6 h-6"
               role="img"
+              stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -26,63 +36,112 @@ function HeroFull() {
           </button>
         </div>
       </div>
-      <div className="skills-wrapper border-2 border-red-500 flex flex-col md:flex-row md:w-11/12 mx-auto">
-        <div className="skill mb-5 -mt-20 border-2 border-yellow-500 pt-3 md:w-1/3">
+      <div className="skills-wrapper flex flex-col md:flex-row md:w-11/12 mx-auto">
+        <div className="skill mb-5 -mt-20 pt-1 md:w-1/3 md:pt-0">
           <div className="skill-contents flex flex-col items-center px-5 -mt-16 relative">
             <img
-              className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg"
-              src="https://picsum.photos/seed/200/300?blur"
+              className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg shadow-2xl"
+              src={webdev}
               alt="Skillset image"
             ></img>
             <div className="p-6 bg-gray-100 text-gray-800 shadow-2xl mx-auto flex-col flex rounded-t-lg">
-              <h2 className="mx-auto text-2xl text-gray-800 pt-8">Web Development</h2>
+              <h2 className="mx-auto text-2xl text-gray-800 pt-14 pb-1 font-semibold uppercase tracking-wider">
+                Web Development
+              </h2>
               <p className="text-lg">
-                With a technical knowledge in HTML, CSS, Vanilla Javascript and various Javascript frameworks like React and NodeJs, you can be sure your project will be well suited for real world use.
+                With a technical knowledge in HTML, CSS, Vanilla Javascript and
+                various Javascript frameworks like React and NodeJs, you can be
+                sure your project will be developed for real world use.
               </p>
               <div className="stack">
-              <h3 className="mt-2 mb-1 text-xl font-semibold text-center">Current Stack</h3>
-              <p><span>Front-End - </span>HTML, CSS, TailwindCSS & React.</p> 
-              <p><span>Back-End  - </span>NodeJS, Flask & Django</p>
+                <h3 className="mt-2 mb-1 text-xl font-semibold text-center">
+                  Web Technologies Used
+                </h3>
+                <p>
+                  <span className="font-semibold text-lg">Front-End - </span>
+                  HTML, CSS, Tailwind CSS, Bootstrap, Vanilla Javascript &
+                  React.
+                </p>
+                <p>
+                  <span className="font-semibold text-lg">Back-End - </span>
+                  NodeJS, Flask & Django
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="skill pt-3 border-2 border-green-500 md:w-1/3">
-          <div className="skill-contents flex flex-col items-center px-5 -mt-16 relative">
+        <div className="skill pt-3 md:w-1/3 md:pt-2">
+          <div className="skill-contents flex flex-col items-center px-5 -mt-16 md:-mt-24 relative">
             <img
-              className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg"
-              src="https://picsum.photos/seed/200/300?blur"
+              className="h-36 w-56 object-cover object-center relative -bottom-14 rounded-lg shadow-2xl"
+              src={mobile}
               alt="Skillset image"
             ></img>
             <div className=" p-6 bg-gray-100 text-gray-800 shadow-2xl mx-auto flex-col flex rounded-t-lg">
-              <h2 className="mx-auto text-2xl text-gray-800 pt-8">React</h2>
+              <h2 className="mx-auto text-2xl text-gray-800 pt-14 pb-1 font-semibold uppercase tracking-wider">
+                Mobile Development
+              </h2>
               <p className="text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                consequatur mollitia, perspiciatis totam omnis porro, error sint
-                asperiores, qui unde esse nihil architecto rem odit quis at quam
-                dolores incidunt?
+                Be it writing native code for a single codebase or even
+                cross-platform mobile development, you can rest assured that
+                Denis has got you.
               </p>
+              <div className="stack">
+                <h3 className="mt-2 mb-1 text-xl font-semibold text-center">
+                  Technologies Used
+                </h3>
+                <p>
+                  <span className="font-semibold text-lg">
+                    Cross-Platform -{" "}
+                  </span>
+                  Flutter & React-Native.
+                </p>
+                <p>
+                  <span className="font-semibold text-lg">Native - </span>
+                  Kotlin & Java.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="skill mb-5 md:-mt-20 border-2 border-gray-500 md:w-1/3">
-          <div className="skill-contents flex flex-col items-center px-5 -mt-10 relative">
+        <div className="skill mb-5 md:-mt-20 md:w-1/3 md:pt-0">
+          <div className="skill-contents flex flex-col items-center px-5 -mt-10 md:-mt-16 relative">
             <img
-              className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg"
-              src="https://picsum.photos/seed/200/300?blur"
+              className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg shadow-2xl"
+              src={robotics}
               alt="Skillset image"
             ></img>
             <div className=" p-6 bg-gray-100 text-gray-800 shadow-2xl mx-auto flex-col flex rounded-t-lg">
-              <h2 className="mx-auto text-2xl text-gray-800 pt-8">React</h2>
+              <h2 className="mx-auto text-2xl text-gray-800 pt-14 pb-1 font-semibold uppercase tracking-wider">
+                Robotics
+              </h2>
               <p className="text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                consequatur mollitia, perspiciatis totam omnis porro, error sint
-                asperiores, qui unde esse nihil architecto rem odit quis at quam
-                dolores incidunt?
+                With the experience of representing Kenya in the 2019 FIRST
+                Global Robotics competition, you know that all your automation
+                needs will be solved with impeccable quality and in record times
+                as well.
               </p>
+              <div className="stack">
+                <h3 className="mt-2 mb-1 text-xl font-semibold text-center">
+                  Platforms Used
+                </h3>
+                <p>
+                  <span className="font-semibold text-lg">Automation - </span>
+                  Arduino & other Microcontrollers, Raspberry.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="divider md:-mt-28">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+          <path
+            fill="#1f2739"
+            fill-opacity="1"
+            d="M0,224L1440,128L1440,320L0,320Z"
+          ></path>
+        </svg>
       </div>
     </section>
   );

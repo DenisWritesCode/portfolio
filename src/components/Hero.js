@@ -5,15 +5,15 @@ function Hero() {
   return (
     <header className="bg-gray-800 text-gray-100 pt-16">
       <div className="top-content bg-gray-800 flex flex-col-reverse md:flex-row md:-mb-28">
-        <div className="left flex flex-col justify-center items-center md:w-1/2 md:relative md:top-1 md:pl-5 px-3">
+        <div className="left flex flex-col justify-center text-left md:w-1/2 md:relative md:top-1 md:pl-5 px-3">
           <h1 className="text-4xl font-semibold">
             Turning Your Ideas into Reality
           </h1>
-          <h2 className="text-3xl m-2">
+          <h2 className="text-3xl mt-2">
             Bettering the world one line of{" "}
             <span className="italic">&lt;Code/&gt;</span> at a time.
           </h2>
-          <p className="text-xl m-2">
+          <p className="text-xl my-2">
             Hey there 👋🏾, I am
             <span className="text-2xl font-semibold"> Denis Mutinda</span>. A
             junior Full-Stack Web developer.
@@ -21,7 +21,7 @@ function Hero() {
           <p className="text-xl mb-5 ">
             I give wings to your ideas and you decide where to fly!🚀
           </p>
-          <div className="btn md:relative md:top-10 md:right-28">
+          <div className="btn md:relative md:top-10 md:left-28">
             <button className="flex align-center justify-center text-xl text-gray-800 bg-gray-100 font-semibold rounded-2xl animate-bounce p-3">
               <span className="mr-2">Let's Start </span>
               <svg
