@@ -2,25 +2,25 @@ import webdev from "./../images/Web-Development.png";
 import robotics from "./../images/Robotics.png";
 import mobile from "./../images/CryptoMobile.png";
 
-function HeroFull() {
+function SkillSet() {
   return (
-    <section className="resume bg-gray-200">
+    <section id="skillset" className="resume bg-gray-200">
       <div className="about bg-gray-800 text-gray-100 p-5 pb-32 md:relative">
         <h1 className="text-3xl font-semibold text-center tracking-wider">
           Skillset
         </h1>
-        <p className="text-xl w-2/3 text-center mx-auto">
+        <p className="text-xl md:w-2/3 text-center mx-auto">
           Working with perfection in my mind, I know I have attain it, not when
           I have nothing to add, rather when there is nothing to remove. I
           iterate over your project for Perfection.
         </p>
-        <p className="text-xl w-2/3 text-center mx-auto">
+        <p className="text-xl md:w-2/3 text-center mx-auto">
           By adhering strictly to the principle of{" "}
           <span className="italic underline">Iterative Development</span> you
           are assured that not only will I delvier in time but I will also
           deliver the best possible solution.
         </p>
-        <div className="btn relative top-1/3 flex align-center justify-center md:absolute md:mt-24 md:inset-x-1/3">
+        <div className="btn relative top-1/3 mt-5 flex align-center justify-center md:absolute md:mt-24 md:inset-x-1/3">
           <button className="flex align-center justify-center text-xl text-gray-800 bg-gray-100 font-semibold rounded-2xl p-3">
             <span className="mr-2">Github </span>
             <svg
@@ -42,7 +42,7 @@ function HeroFull() {
             <img
               className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg shadow-2xl"
               src={webdev}
-              alt="Skillset image"
+              alt="Web Development"
             ></img>
             <div className="p-6 bg-gray-100 text-gray-800 shadow-2xl mx-auto flex-col flex rounded-t-lg">
               <h2 className="mx-auto text-2xl text-gray-800 pt-14 pb-1 font-semibold uppercase tracking-wider">
@@ -75,7 +75,7 @@ function HeroFull() {
             <img
               className="h-36 w-56 object-cover object-center relative -bottom-14 rounded-lg shadow-2xl"
               src={mobile}
-              alt="Skillset image"
+              alt="Mobile development"
             ></img>
             <div className=" p-6 bg-gray-100 text-gray-800 shadow-2xl mx-auto flex-col flex rounded-t-lg">
               <h2 className="mx-auto text-2xl text-gray-800 pt-14 pb-1 font-semibold uppercase tracking-wider">
@@ -91,10 +91,7 @@ function HeroFull() {
                   Technologies Used
                 </h3>
                 <p>
-                  <span className="font-semibold text-lg">
-                    Cross-Platform -{" "}
-                  </span>
-                  Flutter & React-Native.
+                  <span className="font-semibold text-lg">Cross-Platform - </span> Flutter & React-Native.
                 </p>
                 <p>
                   <span className="font-semibold text-lg">Native - </span>
@@ -109,7 +106,7 @@ function HeroFull() {
             <img
               className="h-36 w-52 object-cover object-center relative -bottom-14 rounded-lg shadow-2xl"
               src={robotics}
-              alt="Skillset image"
+              alt="Robotics Showcase"
             ></img>
             <div className=" p-6 bg-gray-100 text-gray-800 shadow-2xl mx-auto flex-col flex rounded-t-lg">
               <h2 className="mx-auto text-2xl text-gray-800 pt-14 pb-1 font-semibold uppercase tracking-wider">
@@ -147,4 +144,4 @@ function HeroFull() {
   );
 }
 
-export default HeroFull;
+export default SkillSet;
