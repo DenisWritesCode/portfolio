@@ -17,13 +17,7 @@ function App() {
       <Navbar onHamClick={onHamClick} />
       {mobileShow && <MobileNav />}
       <Hero />
-      {/*
-      
-      <Hero />
-      <Resume /> 
       <HeroFull />
-      <Resume />
-      */}
     </div>
   );
 }

@@ -31118,23 +31118,6 @@ video {
   animation: bounce 1s infinite;
 }
 
-.skill {
-  --tw-bg-opacity: 1;
-  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
-  border-radius: 0.125rem;
-  padding: 0.75rem;
-  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-@media (min-width: 768px) {
-  .skill {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-    margin-top: 0.5rem;
-  }
-}
-
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
