@@ -5,6 +5,7 @@ import MobileNav from './components/MobileNav';
 import SkillSet from './components/SkillSet';
 import Hero from './components/Hero';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   const [mobileShow, setmobileShow] = useState(false);
@@ -25,6 +26,7 @@ function App() {
       <Hero />
       <SkillSet />
       <Testimonials />
+      <Footer />
     </div>
   );
 }
