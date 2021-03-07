@@ -16,7 +16,7 @@
   "scripts": {
     "watch:css": "tailwindcss build src/tailwind.css -o src/index.css -w",
     "build:css": "tailwindcss build src/tailwind.css -o src/index.css",
-    "start": "craco  start && yarn watch:css",
+    "start": "craco  start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
