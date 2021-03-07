@@ -1,3 +1,9 @@
+## To-Do
+- [ ] Working Links
+- [ ] Add `Blog`, `Resume` & `Contact` section.
+- [ ] Animate the damn thing.
+- [ ] 
+
 # React + Tailwind
 Going to start making my blog.
 Using `React JS` for frontend and `Tailwind CSS` for styling.
