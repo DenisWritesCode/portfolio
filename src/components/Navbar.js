@@ -9,28 +9,36 @@ function Navbar({ onHamClick }) {
       <div className="middle hidden sm:block">
         <li className="flex">
           <ul className="cursor-pointer py-1 px-3 text-gray-200 bg-gray-900 rounded-lg">
-            <a href="#hero" className="anchor">Home</a>
-          </ul>
-          <ul className="cursor-pointer py-1 px-3">
-            <a href="#skillset">
-              SkillSet
+            <a href="#hero" className="anchor">
+              Home
             </a>
           </ul>
           <ul className="cursor-pointer py-1 px-3">
-            <a href="#projects" class="anchor">Experience</a>
+            <a href="#skillset">SkillSet</a>
+          </ul>
+          <ul className="cursor-pointer py-1 px-3">
+            <a href="#projects" class="anchor">
+              Experience
+            </a>
           </ul>
         </li>
       </div>
       <div className="right">
         <li className="flex cursor-pointer">
           <ul className="py-1 px-3">
-            <i className="cursor-pointer fab fa-twitter fa-lg"></i>
+            <a href="https://twitter.com/DenisMMutinda/">
+              <i className="cursor-pointer fab fa-twitter fa-lg"></i>
+            </a>
           </ul>
           <ul className="py-1 px-3">
-            <i className="cursor-pointer fab fa-linkedin fa-lg"></i>
+            <a href="https://www.linkedin.com/in/denis-mutinda-241500191/">
+              <i className="cursor-pointer fab fa-linkedin fa-lg"></i>
+            </a>
           </ul>
           <ul className="py-1 px-3">
-            <i className="cursor-pointer fas fa-envelope-open-text fa-lg"></i>
+            <a href="mailto:deniswritescode@gmail.com?subject=Mail from Portfolio">
+              <i className="cursor-pointer fas fa-envelope-open-text fa-lg"></i>
+            </a>
           </ul>
         </li>
       </div>

@@ -2,7 +2,7 @@
 - [ ] Working Links
 - [ ] Add `Blog`, `Resume` & `Contact` section.
 - [ ] Animate the damn thing.
-- [ ] 
+- [ ] Add loader
 
 # React + Tailwind
 Going to start making my blog.
