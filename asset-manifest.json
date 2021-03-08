@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.43d75b3c.chunk.css",
+    "main.js": "/portfolio/static/js/main.d6a5bce9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d6a5bce9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2012e8d3.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2012e8d3.js.map",
+    "static/js/2.8cf1c96f.chunk.js": "/portfolio/static/js/2.8cf1c96f.chunk.js",
+    "static/js/2.8cf1c96f.chunk.js.map": "/portfolio/static/js/2.8cf1c96f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.43d75b3c.chunk.css.map": "/portfolio/static/css/main.43d75b3c.chunk.css.map",
+    "static/js/2.8cf1c96f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8cf1c96f.chunk.js.LICENSE.txt",
+    "static/media/CryptoMobile.109b5fb2.png": "/portfolio/static/media/CryptoMobile.109b5fb2.png",
+    "static/media/Robotics.4948014f.png": "/portfolio/static/media/Robotics.4948014f.png",
+    "static/media/Suit.8bcc770f.png": "/portfolio/static/media/Suit.8bcc770f.png",
+    "static/media/Web-Development.edb19875.png": "/portfolio/static/media/Web-Development.edb19875.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2012e8d3.js",
+    "static/js/2.8cf1c96f.chunk.js",
+    "static/css/main.43d75b3c.chunk.css",
+    "static/js/main.d6a5bce9.chunk.js"
+  ]
+}
