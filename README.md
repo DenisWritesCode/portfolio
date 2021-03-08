@@ -1,5 +1,5 @@
 ## To-Do
-- [ ] Working Links
+- [x] Working Links
 - [ ] Add `Blog`, `Resume` & `Contact` section.
 - [ ] Animate the damn thing.
 - [ ] Add loader
