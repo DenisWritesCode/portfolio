@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.da054531.chunk.css",
-    "main.js": "/portfolio/static/js/main.b4222182.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b4222182.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.2012e8d3.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2012e8d3.js.map",
-    "static/js/2.8cf1c96f.chunk.js": "/portfolio/static/js/2.8cf1c96f.chunk.js",
-    "static/js/2.8cf1c96f.chunk.js.map": "/portfolio/static/js/2.8cf1c96f.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.da054531.chunk.css.map": "/portfolio/static/css/main.da054531.chunk.css.map",
-    "static/js/2.8cf1c96f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8cf1c96f.chunk.js.LICENSE.txt",
-    "static/media/CryptoMobile.109b5fb2.png": "/portfolio/static/media/CryptoMobile.109b5fb2.png",
-    "static/media/Robotics.4948014f.png": "/portfolio/static/media/Robotics.4948014f.png",
-    "static/media/Suit.8bcc770f.png": "/portfolio/static/media/Suit.8bcc770f.png",
-    "static/media/Web-Development.edb19875.png": "/portfolio/static/media/Web-Development.edb19875.png"
+    "main.css": "/static/css/main.da054531.chunk.css",
+    "main.js": "/static/js/main.b4222182.chunk.js",
+    "main.js.map": "/static/js/main.b4222182.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6897ecd5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6897ecd5.js.map",
+    "static/js/2.8cf1c96f.chunk.js": "/static/js/2.8cf1c96f.chunk.js",
+    "static/js/2.8cf1c96f.chunk.js.map": "/static/js/2.8cf1c96f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.da054531.chunk.css.map": "/static/css/main.da054531.chunk.css.map",
+    "static/js/2.8cf1c96f.chunk.js.LICENSE.txt": "/static/js/2.8cf1c96f.chunk.js.LICENSE.txt",
+    "static/media/CryptoMobile.109b5fb2.png": "/static/media/CryptoMobile.109b5fb2.png",
+    "static/media/Robotics.4948014f.png": "/static/media/Robotics.4948014f.png",
+    "static/media/Suit.8bcc770f.png": "/static/media/Suit.8bcc770f.png",
+    "static/media/Web-Development.edb19875.png": "/static/media/Web-Development.edb19875.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2012e8d3.js",
+    "static/js/runtime-main.6897ecd5.js",
     "static/js/2.8cf1c96f.chunk.js",
     "static/css/main.da054531.chunk.css",
     "static/js/main.b4222182.chunk.js"
