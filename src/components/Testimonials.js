@@ -1,5 +1,5 @@
-import cedPic from './../images/Ced.jpg';
-import cedLogo from './../images/Logicae.jpg';
+import cedPic from "./../images/Ced.jpg";
+import cedLogo from "./../images/Logicae.jpg";
 
 function Testimonials() {
   return (
@@ -20,18 +20,18 @@ function Testimonials() {
           </p>
         </div>
         <div className="testimonial-container">
-          <div className="client-testimonial flex w-11/12 mx-auto mt-5">
+          <div className="client-testimonial flex w-11/12 mx-auto mt-5 items-center">
             <div className="client hidden md:block mx-3">
               <img
                 src={cedLogo}
                 alt="Client"
-                className="client logo rounded-xl"
+                className="client logo rounded-xl w-48 h-48"
               />
             </div>
             <div className="testimonial bg-gray-100 flex flex-col w-11/12 mx-auto my-3 rounded-xl px-2 md:flex-row">
-              <div className="photo my-auto mx-auto">
+              <div className="photo my-auto mx-auto md:w-full">
                 <img
-                  className="w-48 h-48 rounded-full mt-3"
+                  className="w-48 h-48 rounded-full mt-3 object-cover object-center"
                   src={cedPic}
                   alt="Placeholder for client"
                 />
@@ -49,11 +49,14 @@ function Testimonials() {
                   brings into any developer team.
                   <span className="text-3xl">”</span>
                 </p>
-                <figcaption className="pl-5 text-lg font-medium p-1">
-                  <p className="name  text-gray-700">Cedrique Wekesa</p>
-                  <p className="title text-gray-500 text-sm">
-                    Co-Founder & CEO of Logicae Science
-                  </p>
+                <figcaption className="pl-5 text-lg font-medium p-1 md:flex md:justify-between">
+                  <div className="left">
+                    <p className="name  text-gray-700">Cedrique Wekesa</p>
+                    <p className="title text-gray-500 text-sm">
+                      Co-Founder & CEO of Logicae Science
+                    </p>
+                  </div>
+                  <div className=" right text-gray-800 pr-5">Website</div>
                 </figcaption>
               </div>
             </div>
