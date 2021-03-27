@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.da054531.chunk.css",
-    "main.js": "/static/js/main.7768cb94.chunk.js",
-    "main.js.map": "/static/js/main.7768cb94.chunk.js.map",
+    "main.js": "/static/js/main.4e1f9159.chunk.js",
+    "main.js.map": "/static/js/main.4e1f9159.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6897ecd5.js",
     "runtime-main.js.map": "/static/js/runtime-main.6897ecd5.js.map",
     "static/js/2.8cf1c96f.chunk.js": "/static/js/2.8cf1c96f.chunk.js",
@@ -13,14 +13,16 @@
     "static/media/Ced.284200e5.jpg": "/static/media/Ced.284200e5.jpg",
     "static/media/CryptoMobile.109b5fb2.png": "/static/media/CryptoMobile.109b5fb2.png",
     "static/media/Logicae.2d00a1ce.jpg": "/static/media/Logicae.2d00a1ce.jpg",
+    "static/media/Lum.b4225a2f.jpeg": "/static/media/Lum.b4225a2f.jpeg",
     "static/media/Robotics.4948014f.png": "/static/media/Robotics.4948014f.png",
     "static/media/Suit.8bcc770f.png": "/static/media/Suit.8bcc770f.png",
-    "static/media/Web-Development.edb19875.png": "/static/media/Web-Development.edb19875.png"
+    "static/media/Web-Development.edb19875.png": "/static/media/Web-Development.edb19875.png",
+    "static/media/sekani_logo.8f81e700.jpg": "/static/media/sekani_logo.8f81e700.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6897ecd5.js",
     "static/js/2.8cf1c96f.chunk.js",
     "static/css/main.da054531.chunk.css",
-    "static/js/main.7768cb94.chunk.js"
+    "static/js/main.4e1f9159.chunk.js"
   ]
 }
