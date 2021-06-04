@@ -20,7 +20,7 @@ function SkillSet() {
           are assured that not only will I delvier in time but I will also
           deliver the best possible solution.
         </p>
-        <div className="relative top-1/3 mt-5 flex align-center justify-center md:absolute md:mt-24 md:left-1/2">
+        <div className="relative top-1/3 mt-5 flex align-center justify-center md:absolute md:mt-24 md:left-1/2 z-10">
           <a
             href="https://github.com/DenisWritesCode/"
             className="flex align-center justify-center text-xl text-gray-800 bg-gray-100 font-semibold rounded-2xl p-3"
