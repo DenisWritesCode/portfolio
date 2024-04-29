@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.da054531.chunk.css",
-    "main.js": "/static/js/main.4e1f9159.chunk.js",
-    "main.js.map": "/static/js/main.4e1f9159.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6897ecd5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6897ecd5.js.map",
-    "static/js/2.8cf1c96f.chunk.js": "/static/js/2.8cf1c96f.chunk.js",
-    "static/js/2.8cf1c96f.chunk.js.map": "/static/js/2.8cf1c96f.chunk.js.map",
+    "main.css": "/static/css/main.27768dc3.css",
+    "main.js": "/static/js/main.e8b6f49e.js",
+    "static/media/sekani_logo.jpg": "/static/media/sekani_logo.8f81e700f1a705886dbe.jpg",
+    "static/media/Suit.png": "/static/media/Suit.8bcc770f8b0e362b998a.png",
+    "static/media/Lum.jpeg": "/static/media/Lum.b4225a2f3d75775a78c9.jpeg",
+    "static/media/Robotics.png": "/static/media/Robotics.4948014f0590ad6d2dd2.png",
+    "static/media/Ced.jpg": "/static/media/Ced.284200e57b0378e43beb.jpg",
+    "static/media/Logicae.jpg": "/static/media/Logicae.2d00a1ceac23d9215830.jpg",
+    "static/media/Web-Development.png": "/static/media/Web-Development.edb19875014d774420ba.png",
+    "static/media/CryptoMobile.png": "/static/media/CryptoMobile.109b5fb2626ba092aacc.png",
     "index.html": "/index.html",
-    "static/css/main.da054531.chunk.css.map": "/static/css/main.da054531.chunk.css.map",
-    "static/js/2.8cf1c96f.chunk.js.LICENSE.txt": "/static/js/2.8cf1c96f.chunk.js.LICENSE.txt",
-    "static/media/Ced.284200e5.jpg": "/static/media/Ced.284200e5.jpg",
-    "static/media/CryptoMobile.109b5fb2.png": "/static/media/CryptoMobile.109b5fb2.png",
-    "static/media/Logicae.2d00a1ce.jpg": "/static/media/Logicae.2d00a1ce.jpg",
-    "static/media/Lum.b4225a2f.jpeg": "/static/media/Lum.b4225a2f.jpeg",
-    "static/media/Robotics.4948014f.png": "/static/media/Robotics.4948014f.png",
-    "static/media/Suit.8bcc770f.png": "/static/media/Suit.8bcc770f.png",
-    "static/media/Web-Development.edb19875.png": "/static/media/Web-Development.edb19875.png",
-    "static/media/sekani_logo.8f81e700.jpg": "/static/media/sekani_logo.8f81e700.jpg"
+    "main.27768dc3.css.map": "/static/css/main.27768dc3.css.map",
+    "main.e8b6f49e.js.map": "/static/js/main.e8b6f49e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6897ecd5.js",
-    "static/js/2.8cf1c96f.chunk.js",
-    "static/css/main.da054531.chunk.css",
-    "static/js/main.4e1f9159.chunk.js"
+    "static/css/main.27768dc3.css",
+    "static/js/main.e8b6f49e.js"
   ]
 }
